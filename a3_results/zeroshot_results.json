@@ -1,0 +1,219 @@
+{
+ "meta": {
+  "torch": "2.15.0+cpu",
+  "transformers": "4.57.6",
+  "device": "cpu",
+  "models": {
+   "clip-b16": "openai/clip-vit-base-patch16",
+   "clip-l14": "openai/clip-vit-large-patch14",
+   "siglip-b16-224": "google/siglip-base-patch16-224",
+   "siglip-so400m-384": "google/siglip-so400m-patch14-384"
+  },
+  "failed": [],
+  "headline": [
+   "siglip-so400m-384",
+   "descriptive",
+   "ensemble"
+  ],
+  "n_test": 400,
+  "prompt_signature": "fb05abc9c4197a49ff0ad186e8bc1713",
+  "phrases": {
+   "raw": [
+    "a bedroom",
+    "a coast",
+    "a flower",
+    "a forest",
+    "a highway",
+    "an industrial",
+    "an inside city",
+    "a kitchen",
+    "a living room",
+    "a mountain",
+    "an office",
+    "an open country",
+    "a store",
+    "a street",
+    "a suburb",
+    "a tall building"
+   ],
+   "descriptive": [
+    "a bedroom",
+    "a coast by the sea",
+    "a flower",
+    "a forest",
+    "a highway",
+    "an industrial area",
+    "the inside of a city with buildings",
+    "a kitchen",
+    "a living room",
+    "a mountain",
+    "an office",
+    "open country with fields",
+    "the inside of a store",
+    "a street",
+    "a suburban residential area",
+    "a tall building, a skyscraper"
+   ]
+  },
+  "templates": {
+   "single": [
+    "a photo of {}."
+   ],
+   "ensemble": [
+    "a photo of {}.",
+    "a picture of {}.",
+    "an image of {}.",
+    "a photo of {}, a type of scene.",
+    "a photo taken of {}.",
+    "a low resolution photo of {}.",
+    "a cropped photo of {}."
+   ]
+  }
+ },
+ "rows": [
+  {
+   "model": "clip-b16",
+   "phrases": "raw",
+   "templates": "single",
+   "acc": 0.8725,
+   "se": 0.016676611616272652,
+   "correct": 349,
+   "n": 400
+  },
+  {
+   "model": "clip-b16",
+   "phrases": "raw",
+   "templates": "ensemble",
+   "acc": 0.8825,
+   "se": 0.016100756969782512,
+   "correct": 353,
+   "n": 400
+  },
+  {
+   "model": "clip-b16",
+   "phrases": "descriptive",
+   "templates": "single",
+   "acc": 0.8525,
+   "se": 0.017730182599172518,
+   "correct": 341,
+   "n": 400
+  },
+  {
+   "model": "clip-b16",
+   "phrases": "descriptive",
+   "templates": "ensemble",
+   "acc": 0.8575,
+   "se": 0.017478111311008404,
+   "correct": 343,
+   "n": 400
+  },
+  {
+   "model": "clip-l14",
+   "phrases": "raw",
+   "templates": "single",
+   "acc": 0.855,
+   "se": 0.017605041891458256,
+   "correct": 342,
+   "n": 400
+  },
+  {
+   "model": "clip-l14",
+   "phrases": "raw",
+   "templates": "ensemble",
+   "acc": 0.885,
+   "se": 0.01595109714094927,
+   "correct": 354,
+   "n": 400
+  },
+  {
+   "model": "clip-l14",
+   "phrases": "descriptive",
+   "templates": "single",
+   "acc": 0.8475,
+   "se": 0.01797524339195439,
+   "correct": 339,
+   "n": 400
+  },
+  {
+   "model": "clip-l14",
+   "phrases": "descriptive",
+   "templates": "ensemble",
+   "acc": 0.87,
+   "se": 0.016815171720800236,
+   "correct": 348,
+   "n": 400
+  },
+  {
+   "model": "siglip-b16-224",
+   "phrases": "raw",
+   "templates": "single",
+   "acc": 0.8625,
+   "se": 0.017218721642444885,
+   "correct": 345,
+   "n": 400
+  },
+  {
+   "model": "siglip-b16-224",
+   "phrases": "raw",
+   "templates": "ensemble",
+   "acc": 0.8675,
+   "se": 0.016951677645590125,
+   "correct": 347,
+   "n": 400
+  },
+  {
+   "model": "siglip-b16-224",
+   "phrases": "descriptive",
+   "templates": "single",
+   "acc": 0.8875,
+   "se": 0.015799030824705677,
+   "correct": 355,
+   "n": 400
+  },
+  {
+   "model": "siglip-b16-224",
+   "phrases": "descriptive",
+   "templates": "ensemble",
+   "acc": 0.8925,
+   "se": 0.01548739406743433,
+   "correct": 357,
+   "n": 400
+  },
+  {
+   "model": "siglip-so400m-384",
+   "phrases": "raw",
+   "templates": "single",
+   "acc": 0.835,
+   "se": 0.018559027452967464,
+   "correct": 334,
+   "n": 400
+  },
+  {
+   "model": "siglip-so400m-384",
+   "phrases": "raw",
+   "templates": "ensemble",
+   "acc": 0.8375,
+   "se": 0.01844544320421713,
+   "correct": 335,
+   "n": 400
+  },
+  {
+   "model": "siglip-so400m-384",
+   "phrases": "descriptive",
+   "templates": "single",
+   "acc": 0.8675,
+   "se": 0.016951677645590125,
+   "correct": 347,
+   "n": 400
+  },
+  {
+   "model": "siglip-so400m-384",
+   "phrases": "descriptive",
+   "templates": "ensemble",
+   "acc": 0.8675,
+   "se": 0.016951677645590125,
+   "correct": 347,
+   "n": 400
+  }
+ ]
+}

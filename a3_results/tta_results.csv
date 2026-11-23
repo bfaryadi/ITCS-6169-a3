@@ -1,0 +1,89 @@
+model,method,seed,acc
+clip-b16,M0 zero-shot text,-1,0.8575
+clip-b16,M5 text + TTA (no label),-1,0.91
+clip-b16,M1 prototype only,0,0.6625
+clip-b16,M2 score blend,0,0.85
+clip-b16,M3 embedding blend,0,0.8525
+clip-b16,M4 blend + TTA,0,0.8825
+clip-b16,M1 prototype only,1,0.785
+clip-b16,M2 score blend,1,0.86
+clip-b16,M3 embedding blend,1,0.865
+clip-b16,M4 blend + TTA,1,0.87
+clip-b16,M1 prototype only,2,0.7575
+clip-b16,M2 score blend,2,0.88
+clip-b16,M3 embedding blend,2,0.8875
+clip-b16,M4 blend + TTA,2,0.895
+clip-b16,M1 prototype only,3,0.7425
+clip-b16,M2 score blend,3,0.87
+clip-b16,M3 embedding blend,3,0.88
+clip-b16,M4 blend + TTA,3,0.885
+clip-b16,M1 prototype only,4,0.685
+clip-b16,M2 score blend,4,0.84
+clip-b16,M3 embedding blend,4,0.8425
+clip-b16,M4 blend + TTA,4,0.915
+clip-l14,M0 zero-shot text,-1,0.87
+clip-l14,M5 text + TTA (no label),-1,0.905
+clip-l14,M1 prototype only,0,0.6575
+clip-l14,M2 score blend,0,0.8625
+clip-l14,M3 embedding blend,0,0.86
+clip-l14,M4 blend + TTA,0,0.9125
+clip-l14,M1 prototype only,1,0.7775
+clip-l14,M2 score blend,1,0.9175
+clip-l14,M3 embedding blend,1,0.92
+clip-l14,M4 blend + TTA,1,0.9175
+clip-l14,M1 prototype only,2,0.755
+clip-l14,M2 score blend,2,0.875
+clip-l14,M3 embedding blend,2,0.88
+clip-l14,M4 blend + TTA,2,0.93
+clip-l14,M1 prototype only,3,0.74
+clip-l14,M2 score blend,3,0.8575
+clip-l14,M3 embedding blend,3,0.8575
+clip-l14,M4 blend + TTA,3,0.895
+clip-l14,M1 prototype only,4,0.665
+clip-l14,M2 score blend,4,0.845
+clip-l14,M3 embedding blend,4,0.845
+clip-l14,M4 blend + TTA,4,0.9075
+siglip-b16-224,M0 zero-shot text,-1,0.8925
+siglip-b16-224,M5 text + TTA (no label),-1,0.9275
+siglip-b16-224,M1 prototype only,0,0.72
+siglip-b16-224,M2 score blend,0,0.865
+siglip-b16-224,M3 embedding blend,0,0.8675
+siglip-b16-224,M4 blend + TTA,0,0.9125
+siglip-b16-224,M1 prototype only,1,0.8525
+siglip-b16-224,M2 score blend,1,0.9425
+siglip-b16-224,M3 embedding blend,1,0.9375
+siglip-b16-224,M4 blend + TTA,1,0.9375
+siglip-b16-224,M1 prototype only,2,0.785
+siglip-b16-224,M2 score blend,2,0.8875
+siglip-b16-224,M3 embedding blend,2,0.9075
+siglip-b16-224,M4 blend + TTA,2,0.9275
+siglip-b16-224,M1 prototype only,3,0.84
+siglip-b16-224,M2 score blend,3,0.9075
+siglip-b16-224,M3 embedding blend,3,0.91
+siglip-b16-224,M4 blend + TTA,3,0.9325
+siglip-b16-224,M1 prototype only,4,0.705
+siglip-b16-224,M2 score blend,4,0.875
+siglip-b16-224,M3 embedding blend,4,0.8875
+siglip-b16-224,M4 blend + TTA,4,0.9425
+siglip-so400m-384,M0 zero-shot text,-1,0.8675
+siglip-so400m-384,M5 text + TTA (no label),-1,0.91
+siglip-so400m-384,M1 prototype only,0,0.735
+siglip-so400m-384,M2 score blend,0,0.8675
+siglip-so400m-384,M3 embedding blend,0,0.8675
+siglip-so400m-384,M4 blend + TTA,0,0.8975
+siglip-so400m-384,M1 prototype only,1,0.8225
+siglip-so400m-384,M2 score blend,1,0.925
+siglip-so400m-384,M3 embedding blend,1,0.935
+siglip-so400m-384,M4 blend + TTA,1,0.915
+siglip-so400m-384,M1 prototype only,2,0.825
+siglip-so400m-384,M2 score blend,2,0.875
+siglip-so400m-384,M3 embedding blend,2,0.9025
+siglip-so400m-384,M4 blend + TTA,2,0.9125
+siglip-so400m-384,M1 prototype only,3,0.8
+siglip-so400m-384,M2 score blend,3,0.8975
+siglip-so400m-384,M3 embedding blend,3,0.9075
+siglip-so400m-384,M4 blend + TTA,3,0.92
+siglip-so400m-384,M1 prototype only,4,0.715
+siglip-so400m-384,M2 score blend,4,0.8675
+siglip-so400m-384,M3 embedding blend,4,0.87
+siglip-so400m-384,M4 blend + TTA,4,0.9375
