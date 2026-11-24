@@ -1,0 +1,6 @@
+torch
+numpy
+pillow
+transformers>=4.49,<5
+sentencepiece
+protobuf
