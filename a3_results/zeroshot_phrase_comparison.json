@@ -1,0 +1,200 @@
+{
+ "v2_changes": {
+  "InsideCity": "an urban scene with a building"
+ },
+ "note": "v2 edits chosen post hoc after inspecting test errors; optimistic",
+ "rows": [
+  {
+   "model": "clip-b16",
+   "phrases": "raw",
+   "templates": "single",
+   "acc": 0.8725,
+   "correct": 349,
+   "n": 400
+  },
+  {
+   "model": "clip-b16",
+   "phrases": "raw",
+   "templates": "ensemble",
+   "acc": 0.8825,
+   "correct": 353,
+   "n": 400
+  },
+  {
+   "model": "clip-b16",
+   "phrases": "DESCRIPTIVE",
+   "templates": "single",
+   "acc": 0.8525,
+   "correct": 341,
+   "n": 400
+  },
+  {
+   "model": "clip-b16",
+   "phrases": "DESCRIPTIVE",
+   "templates": "ensemble",
+   "acc": 0.8575,
+   "correct": 343,
+   "n": 400
+  },
+  {
+   "model": "clip-b16",
+   "phrases": "DESCRIPTIVE_v2",
+   "templates": "single",
+   "acc": 0.8575,
+   "correct": 343,
+   "n": 400
+  },
+  {
+   "model": "clip-b16",
+   "phrases": "DESCRIPTIVE_v2",
+   "templates": "ensemble",
+   "acc": 0.8625,
+   "correct": 345,
+   "n": 400
+  },
+  {
+   "model": "clip-l14",
+   "phrases": "raw",
+   "templates": "single",
+   "acc": 0.855,
+   "correct": 342,
+   "n": 400
+  },
+  {
+   "model": "clip-l14",
+   "phrases": "raw",
+   "templates": "ensemble",
+   "acc": 0.885,
+   "correct": 354,
+   "n": 400
+  },
+  {
+   "model": "clip-l14",
+   "phrases": "DESCRIPTIVE",
+   "templates": "single",
+   "acc": 0.8475,
+   "correct": 339,
+   "n": 400
+  },
+  {
+   "model": "clip-l14",
+   "phrases": "DESCRIPTIVE",
+   "templates": "ensemble",
+   "acc": 0.87,
+   "correct": 348,
+   "n": 400
+  },
+  {
+   "model": "clip-l14",
+   "phrases": "DESCRIPTIVE_v2",
+   "templates": "single",
+   "acc": 0.82,
+   "correct": 328,
+   "n": 400
+  },
+  {
+   "model": "clip-l14",
+   "phrases": "DESCRIPTIVE_v2",
+   "templates": "ensemble",
+   "acc": 0.8425,
+   "correct": 337,
+   "n": 400
+  },
+  {
+   "model": "siglip-b16-224",
+   "phrases": "raw",
+   "templates": "single",
+   "acc": 0.8625,
+   "correct": 345,
+   "n": 400
+  },
+  {
+   "model": "siglip-b16-224",
+   "phrases": "raw",
+   "templates": "ensemble",
+   "acc": 0.8675,
+   "correct": 347,
+   "n": 400
+  },
+  {
+   "model": "siglip-b16-224",
+   "phrases": "DESCRIPTIVE",
+   "templates": "single",
+   "acc": 0.8875,
+   "correct": 355,
+   "n": 400
+  },
+  {
+   "model": "siglip-b16-224",
+   "phrases": "DESCRIPTIVE",
+   "templates": "ensemble",
+   "acc": 0.8925,
+   "correct": 357,
+   "n": 400
+  },
+  {
+   "model": "siglip-b16-224",
+   "phrases": "DESCRIPTIVE_v2",
+   "templates": "single",
+   "acc": 0.92,
+   "correct": 368,
+   "n": 400
+  },
+  {
+   "model": "siglip-b16-224",
+   "phrases": "DESCRIPTIVE_v2",
+   "templates": "ensemble",
+   "acc": 0.925,
+   "correct": 370,
+   "n": 400
+  },
+  {
+   "model": "siglip-so400m-384",
+   "phrases": "raw",
+   "templates": "single",
+   "acc": 0.835,
+   "correct": 334,
+   "n": 400
+  },
+  {
+   "model": "siglip-so400m-384",
+   "phrases": "raw",
+   "templates": "ensemble",
+   "acc": 0.8375,
+   "correct": 335,
+   "n": 400
+  },
+  {
+   "model": "siglip-so400m-384",
+   "phrases": "DESCRIPTIVE",
+   "templates": "single",
+   "acc": 0.8675,
+   "correct": 347,
+   "n": 400
+  },
+  {
+   "model": "siglip-so400m-384",
+   "phrases": "DESCRIPTIVE",
+   "templates": "ensemble",
+   "acc": 0.8675,
+   "correct": 347,
+   "n": 400
+  },
+  {
+   "model": "siglip-so400m-384",
+   "phrases": "DESCRIPTIVE_v2",
+   "templates": "single",
+   "acc": 0.9125,
+   "correct": 365,
+   "n": 400
+  },
+  {
+   "model": "siglip-so400m-384",
+   "phrases": "DESCRIPTIVE_v2",
+   "templates": "ensemble",
+   "acc": 0.9125,
+   "correct": 365,
+   "n": 400
+  }
+ ]
+}
